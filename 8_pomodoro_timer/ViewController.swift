@@ -15,7 +15,6 @@ enum TimerStatus{
 }
 
 class ViewController: UIViewController {
-    
     var bgView : UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
