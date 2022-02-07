@@ -179,6 +179,13 @@ class ViewController: UIViewController {
                 
                 self.pBar.progress = Float(self.nowSeconds) / Float(self.duration)
                 
+                UIView.animate(withDuration: 0.5, delay: 0, animations: {
+                    self.pomodoroImg.transform = CGAffineTransform(rotationAngle: .pi)
+                })
+                UIView.animate(withDuration: 0.5, delay: 0.5, animations: {
+                    self.pomodoroImg.transform = CGAffineTransform(rotationAngle: .pi * 2)
+                })
+                
                 if self.nowSeconds <= 0{
                     self.stopTimer()
                     self.setTimerInfo(isHidden: true)
@@ -222,6 +229,7 @@ class ViewController: UIViewController {
         self.timerStatus = .end
         self.setTimerInfo(isHidden: true)
         self.pBar.progress = 1
+        self.pomodoroImg.transform = .identity
     }
 }
 
