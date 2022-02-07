@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/iyunsu/Desktop/Swift_fast/Project/8_Pomodoro_timer/8_Pomodoro_timer.xcodeproj">
    </FileRef>
 </Workspace>

@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4BF76EB279EA48600B44281 /* 8_pomodoro_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8_pomodoro_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BF76EB279EA48600B44281 /* 8_Pomodoro_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8_Pomodoro_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BF76EE279EA48600B44281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4BF76F0279EA48600B44281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D4BF76F2279EA48600B44281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		D4BF76E2279EA48600B44281 = {
 			isa = PBXGroup;
 			children = (
-				D4BF76ED279EA48600B44281 /* 8_pomodoro_timer */,
+				D4BF76ED279EA48600B44281 /* 8_Pomodoro_timer */,
 				D4BF76EC279EA48600B44281 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		D4BF76EC279EA48600B44281 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4BF76EB279EA48600B44281 /* 8_pomodoro_timer.app */,
+				D4BF76EB279EA48600B44281 /* 8_Pomodoro_timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4BF76ED279EA48600B44281 /* 8_pomodoro_timer */ = {
+		D4BF76ED279EA48600B44281 /* 8_Pomodoro_timer */ = {
 			isa = PBXGroup;
 			children = (
 				D4BF76EE279EA48600B44281 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				D4BF76F9279EA48900B44281 /* LaunchScreen.storyboard */,
 				D4BF76FC279EA48900B44281 /* Info.plist */,
 			);
-			path = 8_pomodoro_timer;
+			path = 8_Pomodoro_timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4BF76EA279EA48600B44281 /* 8_pomodoro_timer */ = {
+		D4BF76EA279EA48600B44281 /* 8_Pomodoro_timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4BF76FF279EA48900B44281 /* Build configuration list for PBXNativeTarget "8_pomodoro_timer" */;
+			buildConfigurationList = D4BF76FF279EA48900B44281 /* Build configuration list for PBXNativeTarget "8_Pomodoro_timer" */;
 			buildPhases = (
 				D4BF76E7279EA48600B44281 /* Sources */,
 				D4BF76E8279EA48600B44281 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = 8_pomodoro_timer;
+			name = 8_Pomodoro_timer;
 			productName = 8_pomodoro_timer;
-			productReference = D4BF76EB279EA48600B44281 /* 8_pomodoro_timer.app */;
+			productReference = D4BF76EB279EA48600B44281 /* 8_Pomodoro_timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D4BF76E6279EA48600B44281 /* Build configuration list for PBXProject "8_pomodoro_timer" */;
+			buildConfigurationList = D4BF76E6279EA48600B44281 /* Build configuration list for PBXProject "8_Pomodoro_timer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4BF76EA279EA48600B44281 /* 8_pomodoro_timer */,
+				D4BF76EA279EA48600B44281 /* 8_Pomodoro_timer */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4BF76E6279EA48600B44281 /* Build configuration list for PBXProject "8_pomodoro_timer" */ = {
+		D4BF76E6279EA48600B44281 /* Build configuration list for PBXProject "8_Pomodoro_timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4BF76FD279EA48900B44281 /* Debug */,
@@ -350,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4BF76FF279EA48900B44281 /* Build configuration list for PBXNativeTarget "8_pomodoro_timer" */ = {
+		D4BF76FF279EA48900B44281 /* Build configuration list for PBXNativeTarget "8_Pomodoro_timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4BF7700279EA48900B44281 /* Debug */,
